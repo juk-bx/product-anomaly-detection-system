@@ -1,0 +1,37 @@
+{
+  "category": "zipper",
+  "n_test": 151,
+  "n_normal": 32,
+  "n_defect": 119,
+  "image_threshold": 0.1682368867099285,
+  "pixel_threshold": 0.17948634922504425,
+  "image_auroc": 0.5336134453781513,
+  "precision": 0.875,
+  "recall": 0.11764705882352941,
+  "f1": 0.2074074074074074,
+  "confusion_matrix": [
+    [
+      30,
+      2
+    ],
+    [
+      105,
+      14
+    ]
+  ],
+  "accuracy": 0.2913907284768212,
+  "pixel_auroc": 0.6451181011575098,
+  "mean_iou": 0.006381223808201087,
+  "mean_dice": 0.011908814513757512,
+  "inference_ms_per_image": 36.19491721777899,
+  "per_defect_type_mean_score": {
+    "broken_teeth": 0.16528035700321198,
+    "combined": 0.1663459837436676,
+    "fabric_border": 0.1680540144443512,
+    "fabric_interior": 0.16525429487228394,
+    "good": 0.1651594638824463,
+    "rough": 0.16508175432682037,
+    "split_teeth": 0.1649395227432251,
+    "squeezed_teeth": 0.16545233130455017
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "category": "grid",
+  "n_test": 78,
+  "n_normal": 21,
+  "n_defect": 57,
+  "image_threshold": 0.04353164043277502,
+  "pixel_threshold": 0.04139912128448486,
+  "image_auroc": 0.9289891395154553,
+  "precision": 1.0,
+  "recall": 0.7719298245614035,
+  "f1": 0.8712871287128713,
+  "confusion_matrix": [
+    [
+      21,
+      0
+    ],
+    [
+      13,
+      44
+    ]
+  ],
+  "accuracy": 0.8333333333333334,
+  "pixel_auroc": 0.9611252820772074,
+  "mean_iou": 0.19217805218145903,
+  "mean_dice": 0.3127675848565993,
+  "inference_ms_per_image": 37.0833076923214,
+  "per_defect_type_mean_score": {
+    "bent": 0.04172578454017639,
+    "broken": 0.04691047966480255,
+    "glue": 0.04808996990323067,
+    "good": 0.037671249359846115,
+    "metal_contamination": 0.05233950540423393,
+    "thread": 0.055055972188711166
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "category": "tile",
+  "n_test": 117,
+  "n_normal": 33,
+  "n_defect": 84,
+  "image_threshold": 0.13947207629680633,
+  "pixel_threshold": 0.13454876840114594,
+  "image_auroc": 0.854978354978355,
+  "precision": 1.0,
+  "recall": 0.2976190476190476,
+  "f1": 0.45871559633027525,
+  "confusion_matrix": [
+    [
+      33,
+      0
+    ],
+    [
+      59,
+      25
+    ]
+  ],
+  "accuracy": 0.49572649572649574,
+  "pixel_auroc": 0.5136528577314581,
+  "mean_iou": 0.13872466366504047,
+  "mean_dice": 0.20626973855662736,
+  "inference_ms_per_image": 38.444069231080256,
+  "per_defect_type_mean_score": {
+    "crack": 0.1411917507648468,
+    "glue_strip": 0.12961608171463013,
+    "good": 0.11752643436193466,
+    "gray_stroke": 0.14310769736766815,
+    "oil": 0.12145168334245682,
+    "rough": 0.13742217421531677
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "category": "toothbrush",
+  "n_test": 42,
+  "n_normal": 12,
+  "n_defect": 30,
+  "image_threshold": 0.3702032119035721,
+  "pixel_threshold": 0.3645398020744324,
+  "image_auroc": 0.2833333333333333,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1": 0.0,
+  "confusion_matrix": [
+    [
+      12,
+      0
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "accuracy": 0.2857142857142857,
+  "pixel_auroc": 0.14637056312484842,
+  "mean_iou": 0.0,
+  "mean_dice": 0.0,
+  "inference_ms_per_image": 38.57139999967157,
+  "per_defect_type_mean_score": {
+    "defective": 0.3203902542591095,
+    "good": 0.33285167813301086
+  }
+}

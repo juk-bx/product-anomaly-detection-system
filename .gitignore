@@ -1,9 +1,9 @@
 data/raw/
-data/processed/
-models/checkpoints/
-outputs/
-__pycache__/
-.ipynb_checkpoints/
+# data/processed/
+# models/checkpoints/
+# outputs/
+# __pycache__/
+# .ipynb_checkpoints/
 .venv/
 venv/
 .env
